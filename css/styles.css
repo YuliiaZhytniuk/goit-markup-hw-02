@@ -40,6 +40,10 @@ button {
   color: #2e2f42;
 }
 
+.contacts {
+  font-style: normal
+}
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -47,9 +51,9 @@ button {
   color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: #8b178d
+.link-btn:hover,
+.link-btn:focus {
+  color: #404bbf;
 }
 
 /** ===================================== */
@@ -70,7 +74,6 @@ button {
 }
 
 .hero-btn {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -81,7 +84,7 @@ button {
 
 .hero-btn:hover,
 .hero-btnk:focus {
-  color:#8b178d
+  color: #404bbf;
 }
 
 /** ===================================== */
@@ -89,12 +92,6 @@ button {
 /** ================FEATURES================= */
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -121,6 +118,7 @@ button {
 
 .team {
   background: #f4f4fd;
+  text-transform: capitalize;
 }
 
 .team-title {
@@ -132,8 +130,8 @@ button {
   color: #2e2f42;
 }
 
-.team-list {
-  background: #fff;
+.team-item {
+  background-color: #FFFFFF
 }
 
 .team-item-name {
@@ -144,6 +142,7 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-item-profecion {
   font-size: 16px;
   line-height: 1.5;
@@ -154,6 +153,10 @@ button {
 /** ===================================== */
 
 /** ================PROJECTS================= */
+
+.projects {
+  text-transform: capitalize;
+}
 
 .projects-title {
   font-weight: 700;
