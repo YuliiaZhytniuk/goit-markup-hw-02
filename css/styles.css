@@ -40,19 +40,28 @@ button {
   color: #2e2f42;
 }
 
+.header-menu-link {
+color: #2e2f42;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf
+}
+
 .contacts {
   font-style: normal
 }
 
-.contact-link {
+.contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.link-btn:hover,
-.link-btn:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -84,7 +93,7 @@ button {
 
 .hero-btn:hover,
 .hero-btnk:focus {
-  color: #404bbf;
+  background-color: #404BBF;
 }
 
 /** ===================================== */
