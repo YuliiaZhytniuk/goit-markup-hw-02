@@ -1,5 +1,7 @@
 body {
   font-family:  "Roboto", sans-serif;
+  background: #fff;
+  color: #434455;
 }
 
 ul {
@@ -26,10 +28,6 @@ button {
 
 /** ==============HEADER================ */
 
-.header {
-  background: #fff;
-}
-
 .header-logo {
   color: #2e2f42;
 }
@@ -47,6 +45,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #8b178d
 }
 
 /** ===================================== */
@@ -76,13 +79,14 @@ button {
   color: #fff;
 }
 
+.hero-btn:hover,
+.hero-btnk:focus {
+  color:#8b178d
+}
+
 /** ===================================== */
 
 /** ================FEATURES================= */
-
-.features {
-  background: #fff;
-}
 
 .visually-hidden {
   position: absolute;
@@ -109,7 +113,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /** ===================================== */
@@ -146,13 +149,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 /** ===================================== */
 
 /** ================PROJECTS================= */
-
 
 .projects-title {
   font-weight: 700;
@@ -179,7 +180,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /** ===================================== */
